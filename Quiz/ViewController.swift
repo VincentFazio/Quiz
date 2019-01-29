@@ -3,8 +3,9 @@
 //  Quiz
 //
 //  Created by Vincent Fazio on 1/23/19.
+// High Point University
 //  Copyright © 2019 Vincent Fazio. All rights reserved.
-//
+// Source: https://chartcons.com/100-good-trivia-questions-and-answers/
 
 import UIKit
 
@@ -15,13 +16,24 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
-    ]
+        "What is cognac made from?",
+        "What’s the medical term for low blood sugar?",
+        "What is the most widely eaten fish in the world?",
+        "Who led the Million Man March on Washington?",
+        "Which planet in our solar system spins the fastest?",
+        "What Italian astronomer invented the thermometer?"
+        ]
+    
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
-    ]
+        "Grapes",
+        "Hypoglycemia",
+        "Herring",
+        "Louis Farrakhan",
+        "Jupiter",
+        "Galileo"
+         ]
     var currentQuestionIndex: Int = 0
     
     @IBAction func showNextQuestion(_ sender: UIButton) {

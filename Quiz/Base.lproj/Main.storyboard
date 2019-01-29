@@ -44,6 +44,12 @@
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jhD-4z-3kk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Vincent Fazio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4u-lQ-bDW">
+                                <rect key="frame" x="122" y="586" width="132" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -54,11 +60,13 @@
                             <constraint firstItem="iis-bk-LPl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="G2c-a9-ncs"/>
                             <constraint firstItem="iis-bk-LPl" firstAttribute="top" secondItem="Gq8-vB-cok" secondAttribute="bottom" constant="8" symbolic="YES" id="I2S-4k-wa0"/>
                             <constraint firstItem="eYE-tK-3jk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="Kpq-GP-PyG"/>
+                            <constraint firstItem="G4u-lQ-bDW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="Mfj-Gt-b5h"/>
                             <constraint firstItem="Gq8-vB-cok" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="309" id="SDh-8j-7Ew"/>
                             <constraint firstItem="Pj6-T6-hoF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="TAm-Lj-ttB"/>
                             <constraint firstItem="iis-bk-LPl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="Wtt-eh-PsM"/>
                             <constraint firstItem="iis-bk-LPl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="c3e-EI-akd"/>
                             <constraint firstItem="eYE-tK-3jk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="dCs-Qa-3Pr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="G4u-lQ-bDW" secondAttribute="bottom" constant="60" id="nxI-FI-5F3"/>
                             <constraint firstItem="eYE-tK-3jk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="ug3-9T-TIX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,6 +74,7 @@
                     <connections>
                         <outlet property="answerLabel" destination="Gq8-vB-cok" id="pzo-OD-Gco"/>
                         <outlet property="questionLabel" destination="eYE-tK-3jk" id="dQG-Cj-szl"/>
+                        <outlet property="view" destination="G4u-lQ-bDW" id="Oia-Bt-UCv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
